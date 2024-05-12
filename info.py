@@ -27,17 +27,17 @@ API_HASH = environ.get('API_HASH', '81c971526dd7578ff94ca90ba81b5882')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '6482889001:AAGNhktg5MKio8drK6kgoy_4sc4CGM8UeK0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7110812837:AAFZ5s2ZAbOBt0PDKzKE6G2h_U0LAGIouSc')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
 PORT = int(environ.get('PORT', '80'))
 
 # Bot pics
-PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/ebecd8e899b1462d1a762.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '755436524 1341058877')
+ADMINS = environ.get('ADMINS', '1341058877')
 if len(ADMINS) == 0:
     print('Error - ADMINS is missing, exiting now')
     exit()
@@ -51,7 +51,7 @@ if len(INDEX_CHANNELS) == 0:
 AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '').split()]
 if len(AUTH_CHANNEL) == 0:
     print('Info - AUTH_CHANNEL is empty')
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002052410963')
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002060503760')
 if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
     exit()
