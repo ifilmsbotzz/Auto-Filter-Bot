@@ -37,7 +37,7 @@ PORT = int(environ.get('PORT', '80'))
 PICS = (environ.get('PICS', 'https://graph.org/file/ebecd8e899b1462d1a762.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '1341058877')
+ADMINS = environ.get('ADMINS', '1341058877 6524026535')
 if len(ADMINS) == 0:
     print('Error - ADMINS is missing, exiting now')
     exit()
