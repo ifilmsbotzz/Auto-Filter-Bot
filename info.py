@@ -60,7 +60,7 @@ else:
 IS_FSUB = is_enabled('IS_FSUB', True)
 
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002119798920')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002108960137')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -84,7 +84,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/WiseCinema')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/NYASHS2727")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/WiseCinema')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+9I-hxxakhU44YzY9')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+gvFPLTYVYNxhNWY1')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/WiseCinema_Links")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/WiseCinema_Links")
 
