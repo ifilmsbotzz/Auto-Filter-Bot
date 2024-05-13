@@ -496,7 +496,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         await query.answer('Welcome!')
         buttons = [[
-            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?', url='https://t.me/WiseCinema/Links')
+            InlineKeyboardButton('💡ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?💡', url='https://t.me/WiseCinema_Links')
         ],[
             InlineKeyboardButton('👨‍🚒 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='my_about')
@@ -579,7 +579,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Contact Owner For Help', callback_data='user_command')
+            InlineKeyboardButton('Contact Owner For Help', url='https:/t.me/NYASHS2727')
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏꜱᴇ ✗', callback_data='close_data')
