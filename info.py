@@ -31,7 +31,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7110812837:AAFZ5s2ZAbOBt0PDKzKE6G2h_U0LAGI
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
-PORT = int(environ.get('PORT', '80'))
+PORT = int(environ.get('PORT', '8080'))
 
 # Bot pics
 PICS = (environ.get('PICS', 'https://graph.org/file/ebecd8e899b1462d1a762.jpg')).split()
@@ -104,7 +104,7 @@ PM_DELETE_TIME = int(environ.get('PM_DELETE_TIME', 600))
 
 # boolean settings
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 AUTO_DELETE = is_enabled('AUTO_DELETE', False)
 WELCOME = is_enabled('WELCOME', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
