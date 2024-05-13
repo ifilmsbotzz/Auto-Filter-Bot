@@ -64,7 +64,7 @@ I can't find the <b>{}</b> in my database! 🥲
 📀 RunTime: {runtime} Minutes
 
 🗣 Requested by: {message.from_user.mention}
-©️ Powered by: <b>{message.chat.title}</b>"""
+©️ Powered by: @WiseCinema</b>"""
 
     FILE_CAPTION = """<i>{file_name}</i>
 
@@ -72,7 +72,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
-    HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
+    HELP_TXT = """<b>Note - <spoiler>Conatct Owner for more details and help 😹</spoiler></b>"""
     
     ADMIN_COMMAND_TXT = """<b>Here is bot admin commands 👇
 
