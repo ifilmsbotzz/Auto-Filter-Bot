@@ -50,7 +50,7 @@ async def start(client, message):
     
     if (len(message.command) != 2) or (len(message.command) == 2 and message.command[1] == 'start'):
         buttons = [[
-                        InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?', url='https://t.me/WiseCinema/Links')
+                        InlineKeyboardButton('💡ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ?💡', url='https://t.me/WiseCinema_Links')
         ],[
             InlineKeyboardButton('👨‍🚒 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='my_about')
